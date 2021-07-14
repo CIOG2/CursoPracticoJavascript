@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras</title>
+    <link rel="stylesheet" href="CSS/figuras.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Figuras geometricas</h1>
+        <p>Este es el primer taller del curso practico de javascript</p>
+    </header>
+    <main>
+        <section>
+            
+            <div class="cabecera">            
+                <h2>CALCULA EL AREA Y PERIMETRO DE UN CUADRADO</h2>
+            </div>
+            
+                <form>
+                    <label for="CALCULAR-CUADRADO">
+                        Lado del cuadrado:
+                        <input id="CALCULAR-CUADRADO" class="texto-entrada" type="number">
+                    </label>
+                    <div class="container">
+                        <button onclick="calcularCuadrado()" type="button" class="button-calcular"><span></span></button>
+                        <div class="cuadrado one"></div>
+                        <div class="cuadrado two"></div>
+                        <div class="cuadrado three"></div>
+                        <div class="cuadrado"></div>
+                    </div>
+                </form>
+        </section>
+
+        <section>
+                <div class="cabecera">
+                    <h2>CALCULA EL AREA Y PERIMETRO DE UN TRIANGULO</h2>
+                </div>
+                <form>
+                    <div class="CONTAIRNER-TRIANGULO">
+                            <label for="CALCULAR-LADO1">
+                                Medidas del Lado 1:
+                                <input id="CALCULAR-LADO1" class="texto-entrada" type="number">
+                            </label>
+                            <br>
+                            <label for="CALCULAR-LADO2">
+                                Medidas del Lado 2:
+                                <input id="CALCULAR-LADO2" class="texto-entrada" type="number">
+                            </label>
+                            <br>
+                            <label for="CALCULAR-BASE">
+                                Medidas de la Base:
+                                <input id="CALCULAR-BASE" class="texto-entrada" type="number">
+                            </label>
+                            <br>
+                            <label for="CALCULAR-ALTURA">
+                                Altura (opcional):
+                                <input id="CALCULAR-ALTURA" class="texto-entrada" type="number">
+                            </label>
+                    </div>
+                    <div class="container">
+                        <button onclick="calcularTriangulo()" type="button" class="button-calcular"><span></span></button>
+                        <div class="triangulo onet"></div>
+                        <div class="triangulo twot"></div>
+                        <div class="triangulo threet"></div>
+                        <div class="triangulo"></div>
+                    </div>
+                </form>
+        </section>
+        <section>
+                <div class="cabecera">
+                    <h2>CALCULA EL AREA Y PERIMETRO DE UN CIRCULO</h2>
+                </div>    
+                <form>
+                    <label for="CALCULAR-CIRCULO">
+                        Medidas del radio:
+                        <input  id="CALCULAR-CIRCULO" class="texto-entrada" type="number">
+                    </label>
+                    <div class="container">
+                        <button onclick="calcularCirculo()" type="button" class="button-calcular"><span></span></button>
+                        <div class="circulo one"></div>
+                        <div class="circulo two"></div>
+                        <div class="circulo three"></div>
+                        <div class="circulo"></div>
+                    </div>
+                </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script src="JS/figuras.js"></script>
+</body>
+</html>

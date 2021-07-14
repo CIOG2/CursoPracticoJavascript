@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #201e1c;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 1.5rem;
+    color: white;
+}
+p{
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 20vh;
+    background-color: #F7931A;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+main section{
+    width: 80%;
+    height: auto;
+    max-width: 500px;
+    background-color: #282623;
+    border-radius: 10px;
+    margin: 20px 0px;
+    box-shadow: 3px 3px 10px 3px rgb(0 0 0);
+}
+
+.button-calcular{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #a8a8a8;
+    box-shadow: 3px 3px 7px 1px rgb(0, 0, 0);
+    transform: scale(1);
+    transition: transform 1.5s;
+}
+
+.button-calcular span{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    background-image: url('https://i.pinimg.com/originals/0c/4f/fa/0c4ffaf979a8c05a9e7b15293996340f.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto-entrada{
+    height: 30px;
+    background-color: #D0D3D4 ;
+    border-radius: 5px;
+    border: none;
+}
+
+main section .cabecera{
+    width: 100%;
+    height: 20%;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+main section form{
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+main section form label{
+    font-size: 1.7rem;
+    color: #808080;
+}
+
+main section form label input{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 220px;
+    padding-left: 10px;
+    font-size: 2rem;
+}
+
+main section form .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+
+
+section form .container .triangulo{
+    margin-left: 12px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid #F7931A;
+}
+section form .container .onet{    
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #F7931A;
+}
+section form .container .twot{
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 30px solid #F7931A;
+}
+section form .container .threet{
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid #F7931A;
+}
+
+
+
+
+
+section form .container .cuadrado{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #F7931A;
+    margin-left: 15px;
+    transform: rotate(0deg);
+    transition: transform 1s;
+}
+section form .container .circulo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #F7931A;
+    margin-left: 15px;
+    transform: scale(1);
+    transition: transform 1s;
+}
+section form .container .one{
+    width: 15px;
+    height: 15px;
+}
+section form .container .two{
+    width: 30px;
+    height: 30px;
+}
+section form .container .three{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+.button-calcular:hover{
+    transform: scale(1.3);
+    transition: transform 1.5s;
+}
+section form .container .circulo:hover{
+    transform: scale(1.3);
+    transition: transform 1s;
+    border: 5px solid yellow;
+}
+section form .container .cuadrado:hover{
+    border: 5px solid white;
+    transform: rotate(40deg);
+    transition: transform 1s;
+}
+section form .container .triangulo:hover{
+    border-bottom: 50px solid greenyellow;
+}
+section form .container .onet:hover{    
+    border-bottom: 20px solid greenyellow;
+}
+
+section form .container .twot:hover{
+    border-bottom: 30px solid greenyellow;
+}
+
+section form .container .threet:hover{
+    border-bottom: 40px solid greenyellow;
+}
+
+
+
+
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: #F7931A;
+    margin-top: 20px;
+}
+
+
+@media(min-width: 521px){
+    #CALCULAR-ALTURA{
+        margin-left: 23px;
+    }    
+}
