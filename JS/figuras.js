@@ -56,7 +56,6 @@ function calcularTriangulo() {
 function calcularCirculo() {
     const radio = document.getElementById("CALCULAR-CIRCULO").value;
 
-
     if(radio){
         const area = AreaCirculo(radio);
         const perimetro = PerimetroCirculo(radio);
