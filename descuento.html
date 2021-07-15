@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>descuento</title>
+    <link rel="stylesheet" href="CSS/descuento.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+    </header>
+   
+   
+    <main class="main-descuento">
+        <section class="section-title">
+                <h1>Calcula tu descuento</h1>
+                <p>
+                    Saber el descuento de un precio <br>
+                    en ocaciones es complicado.
+                </p>
+        </section>
+        <section class="section-form">
+                <form class="form-container">
+                    <div class="input-container">
+                        
+                        <label for="PRECIO-DEL-PRODUCTO">
+                            Precio del producto:
+                            <input id="PRECIO-DEL-PRODUCTO" class="texto-entrada" type="number">
+                        </label>
+                        <br>
+                        <label class="class-descuento" for="DESCUENTO">
+                            Descuento:
+                            <input id="DESCUENTO" class="texto-entrada class-descuento" type="number">
+                        </label>
+
+                    </div>
+                    <div class="button-container">
+                        <button class="button-calcular" onclick=" realizarDescuento()" type="button"><span></span></button>
+                        <div class="DOLLAR one"></div>
+                        <div class="DOLLAR two"></div>
+                        <div class="DOLLAR three"></div>
+                        <class class="DOLLAR "></class>
+                    </div>
+                </form>
+        </section>
+    </main>
+   
+   
+    <footer>
+    </footer>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script src="JS/descuento.js"></script>
+</body>
+</html>

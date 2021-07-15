@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #201e1c;
+}
+
+.main-descuento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 75vh;
+}
+
+.main-descuento .section-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 20vh;
+    text-align: center;
+}
+.main-descuento .section-title h1{
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+.main-descuento .section-title p{
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+
+
+.main-descuento .section-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+}
+
+.main-descuento .section-form .form-container{
+    width: 80%;
+    height: 250px;
+    max-width: 400px;
+    padding-top: 20px;
+    background-color: #282623;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 3px rgb(0 0 0);
+}
+
+
+.main-descuento .section-form .form-container .input-container{
+    width: 90%;
+    height: 70%;
+    margin: 0 auto;
+}
+
+
+.main-descuento .section-form .form-container .input-container label{
+    font-size: 1.7rem;
+    color: #808080;
+}
+
+
+
+.main-descuento .section-form .form-container .button-container{
+    width: 80%;
+    height: 30%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.button-calcular{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #a8a8a8;
+    box-shadow: 3px 3px 7px 1px rgb(0, 0, 0);
+    transform: scale(1);
+    transition: transform 1.5s;
+}
+
+.button-calcular span{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    background-image: url('https://i.pinimg.com/originals/0c/4f/fa/0c4ffaf979a8c05a9e7b15293996340f.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.texto-entrada{
+    height: 30px;
+    background-color: #D0D3D4 ;
+    border-radius: 5px;
+    border: none;
+    margin: 15px 0;
+}
+
+.class-descuento{
+    margin-right: 65px;
+}   
+
+.DOLLAR{
+    width: 45px;
+    height: 45px;
+    margin-left: 11px;
+    background-image: url('https://ciog2.github.io/Batatabit/CSS/icons/dollar-sign.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1);
+    transition: transform 1s;
+}
+
+.main-descuento .section-form .button-container .one{
+    width: 15px;
+    height: 15px;
+}
+.main-descuento .section-form .button-container .two{
+    width: 30px;
+    height: 30px;
+}
+.main-descuento .section-form .button-container .three{
+    width: 40px;
+    height: 40px;
+}
+
+.DOLLAR:hover{
+    transform: scale(1.3);
+    transition: transform 1s;
+}
+
+
+
+
+
+
+@media(min-width: 450px){
+    #DESCUENTO{
+        margin-left: 65px;
+    }    
+    .class-descuento{
+        margin-right: 0px;
+    }    
+    .main-descuento .section-form .form-container{
+        height: 230px;
+    }
+    .main-descuento .section-title h1{
+        font-size: 3rem;
+    }
+}
+
+
+@media(min-width: 750px){
+    .main-descuento .section-title h1{
+        font-size: 3.5rem;
+    }
+}
+
+
+
+
