@@ -1,0 +1,35 @@
+.cabecera .nav-bar .izquierda{
+    width: 13%;
+}
+.cabecera .nav-bar .izquierda img{
+    width: 70px;
+    height: 70px;
+}    
+.cabecera .nav-bar .derecha{    
+    width: 50%;
+    height: 80%;
+}
+.cabecera .nav-bar .derecha ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 400px;
+} 
+.cabecera .nav-bar .derecha ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+.cabecera .nav-bar .derecha ul li a{
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+
+@media(min-width: 920px){
+    .cabecera .nav-bar .izquierda{
+        width: 8%;
+    }   
+}
