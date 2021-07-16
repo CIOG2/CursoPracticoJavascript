@@ -28,8 +28,8 @@ html{
     height: 80%;
 }
 .cabecera .nav-bar .izquierda img{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 }
 .cabecera .nav-bar .derecha{    
     width: 20%;
@@ -41,29 +41,30 @@ html{
     display: none;
 }
 
-@media(min-width: 600px){
-    .cabecera .nav-bar .izquierda img{
-        width: 70px;
-        height: 70px;
-    }    
-    .cabecera .nav-bar .derecha{    
-        width: 50%;
-        height: 80%;
-    }
-    .cabecera .nav-bar .derecha ul{
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        margin-right: 400px;
-    } 
-    .cabecera .nav-bar .derecha ul li{
-        list-style: none;
-        margin-right: 20px;
-    }
-    .cabecera .nav-bar .derecha ul li a{
-        font-size: 2rem;
-        color: white;
-        font-weight: 500;
-        text-decoration: none;
-    }
+main{
+    width: 100%;
+    height: 120vh;
+    background-color: #282623;
+}
+
+.pie{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 20vh;
+    background-color: #F7931A;
+}
+.pie div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie div ul li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.pie div ul li a{
+    font-size: 1.5rem;
+    color: aliceblue;
+    text-decoration: none;
 }
