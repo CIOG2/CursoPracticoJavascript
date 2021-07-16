@@ -8,10 +8,11 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
-.cabecera{
+header{
     width: 100%;
     height: 15vh;
     background-color: #F7931A;
+    margin-bottom: 30px;
 }
 .cabecera .nav-bar{
     display: flex;
@@ -41,11 +42,6 @@ html{
     display: none;
 }
 
-main{
-    width: 100%;
-    height: 120vh;
-    background-color: #282623;
-}
 
 .pie{
     display: grid;
@@ -53,6 +49,7 @@ main{
     width: 100%;
     height: 20vh;
     background-color: #F7931A;
+    margin-top: 30px;
 }
 .pie div{
     display: flex;

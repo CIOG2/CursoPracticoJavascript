@@ -6,16 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>descuento</title>
     <link rel="stylesheet" href="CSS/descuento.css">
+    <link rel="stylesheet" href="CSS/headerFooter.css">
+    <link rel="stylesheet" href="CSS/headerFooterTablet.css" media="(min-width: 600px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-    <header>
-    </header>
-   
-   
+    <header class="cabecera">
+        <nav class="nav-bar">
+            <div class="izquierda">
+                <a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Home_free_icon.svg" alt="Icono home"></a>
+            </div>
+            <div class="derecha">
+                <ul>
+                    <li><a href="figuras.html">Figuras</a></li>
+                    <li><a href="descuento.html">Porcentajes</a></li>
+                    <li><a href="promedios.html">Promedios</a></li>
+                    <li><a href="salario.html">Salarios</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header> 
+    
     <main class="main-descuento">
         <section class="section-title">
                 <h1>Calcula tu descuento</h1>
@@ -49,12 +64,24 @@
                 </form>
         </section>
     </main>
-   
-   
-    <footer>
+    
+    <footer class="pie">
+        <div class="container-left">
+            <ul>
+                <li><a href="Aprendi.html">¿Que aprendi?</a></li>
+                <li><a href="https://ciog2.github.io/">Mi Blog</a></li>
+                <li><a href="https://twitter.com/fjuandc">Profesor</a></li>
+            </ul>
+        </div>
+        <div class="container-right">
+            <ul>
+                <li><a href="https://ciog2.github.io/redes.html">Mis Redes</a></li>
+                <li><a href="">Mis Proyectos</a></li>
+                <li><a href="">Mis Conocimientos</a></li>
+            </ul>
+        </div>
     </footer>
     
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
     <script src="JS/descuento.js"></script>
 </body>
