@@ -7,3 +7,9 @@ html{
     font-size: 62.5%;
 }
 
+.main-promedios{
+    width: 100%;
+    height: auto;
+    min-height: 450px;
+    background-color: #201e1c;
+}
