@@ -8,8 +8,87 @@ html{
 }
 
 .main-promedios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: auto;
+    height: 80vh;
     min-height: 450px;
     background-color: #201e1c;
+}
+
+.main-promedios .section-container{
+    display: block;
+    width: 85%;
+    height: auto;
+    max-width: 450px;
+    border-radius: 10px;
+    background-color: #282623;
+    box-shadow: 3px 3px 10px 3px rgb(0 0 0);
+}
+
+.main-promedios .section-container .cabecera{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.main-promedios .section-container .cabecera h2{
+    color: white;
+    font-size: 2rem;
+}
+
+.main-promedios .section-container form{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.main-promedios .section-container form label{
+    font-size: 1.7rem;
+    color: #808080;
+}
+
+
+.main-promedios .section-container form label input{
+    height: 30px;
+    font-size: 2rem;
+    background-color: #D0D3D4 ;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 5px;
+    border: none;
+}
+
+.main-promedios .section-container form .container-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    padding: 20px 0 10px;
+}
+
+.main-promedios .section-container form .container-button button{
+    width: auto;
+    height: 40px;
+    padding: 0 5px;
+    margin-left: 15px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #3b3936;
+    background-color: #D0D3D4;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px 4px rgb(0 0 0);
+    transform: scale(1);
+    transition: transform 1s;
+}
+
+.main-promedios .section-container form .container-button button:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
 }
