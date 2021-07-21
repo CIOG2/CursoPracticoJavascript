@@ -16,3 +16,11 @@
 -Imprementar las formulas con JavaScript
 -Crea funciaones
 -Integrar JavaScript con HTML
+
+
+## Taller: #2 Promedio, Mediana y Moda
+
+-Definir las formulas
+-Imprementar las formulas con JavaScript
+-Crea funciaones
+-Integrar JavaScript con HTML
