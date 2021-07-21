@@ -6,7 +6,8 @@
         width: 70px;
         height: 70px;
     }    
-    .cabecera .nav-bar .derecha{    
+    .cabecera .nav-bar .derecha{  
+        justify-content: flex-start;  
         width: 50%;
         height: 80%;
     }
