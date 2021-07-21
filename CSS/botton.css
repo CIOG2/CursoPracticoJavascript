@@ -1,0 +1,36 @@
+.cabecera .nav-bar .derecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecera .nav-bar .derecha .hamburger-menu {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .cabecera .nav-bar .derecha .hamburger-menu .bar {
+    height: 6px;
+    background: black;
+    border-radius: 5px;
+    margin: 3px 0px;
+    transform-origin: left;
+    transition: all 0.5s;
+  }
+  
+  .cabecera .nav-bar .derecha .hamburger-menu:hover .top {
+    transform: rotate(43deg);
+  }
+  
+  .cabecera .nav-bar .derecha .hamburger-menu:hover .middle {
+    opacity: 0;
+  }
+  
+  .cabecera .nav-bar .derecha .hamburger-menu:hover .bottom {
+    transform: rotate(-43deg);
+  }
