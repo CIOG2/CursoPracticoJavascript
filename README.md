@@ -18,7 +18,7 @@
 -Integrar JavaScript con HTML
 
 
-## Taller: #2 Promedio, Mediana y Moda
+## Taller: #3 Promedio, Mediana y Moda
 
 -Definir las formulas
 -Imprementar las formulas con JavaScript
