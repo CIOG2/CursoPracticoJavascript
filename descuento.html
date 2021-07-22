@@ -16,18 +16,28 @@
 </head>
 
 <body>
-    <header class="cabecera">
+
+<header class="cabecera">
         <nav class="nav-bar">
             <div class="izquierda">
                 <a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Home_free_icon.svg" alt="Icono home"></a>
             </div>
             <div class="derecha">
                 <div class="hamburger-menu">
-                    <div class="bar top"></div>
-                    <div class="bar middle"></div>
-                    <div class="bar bottom"></div>
-                </div> 
-                <ul>
+                    <button onclick="desplegarLista()">
+                        <div class="bar top" id="hamburger-top"></div>
+                        <div class="bar middle" id="hamburger-middle"></div>
+                        <div class="bar bottom" id="hamburger-bottom"></div>        
+                    </button>
+                </div>                   
+                <ul class="links-desplegables" id="menu-desplegable__hamburguer">
+                    <li><a href="figuras.html">Figuras</a></li>
+                    <li><a href="descuento.html">Porcentajes</a></li>
+                    <li><a href="promedios.html">Promedios</a></li>
+                    <li><a href="salario.html">Salarios</a></li>
+                </ul>  
+         
+                <ul class="nav-bar--destok">
                     <li><a href="figuras.html">Figuras</a></li>
                     <li><a href="descuento.html">Porcentajes</a></li>
                     <li><a href="promedios.html">Promedios</a></li>
@@ -35,7 +45,7 @@
                 </ul>
             </div>
         </nav>
-    </header> 
+</header> 
     
     <main class="main-descuento">
         <section class="section-title">
@@ -90,5 +100,6 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
     <script src="JS/descuento.js"></script>
+    <script src="js/Button.js"></script>
 </body>
 </html>
