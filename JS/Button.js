@@ -4,7 +4,6 @@ const middle = document.getElementById("hamburger-middle");
 const botton = document.getElementById("hamburger-bottom");
 
 
-menu.classList.add('menu-Desplegable');
 let i = 1;
 
 function desplegarLista() {
