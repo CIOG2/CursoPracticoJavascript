@@ -11,21 +11,28 @@
         width: 50%;
         height: 80%;
     }
-    .cabecera .nav-bar .derecha ul{
+    .cabecera .nav-bar .derecha .nav-bar--destok{
         display: flex;
         justify-content: flex-end;
         align-items: center;
         margin-right: 400px;
     } 
-    .cabecera .nav-bar .derecha ul li{
+    .cabecera .nav-bar .derecha .nav-bar--destok li{
         list-style: none;
         margin-right: 20px;
     }
-    .cabecera .nav-bar .derecha ul li a{
+    .cabecera .nav-bar .derecha .nav-bar--destok li a{
         font-size: 2rem;
         color: white;
         font-weight: 500;
         text-decoration: none;
+    }
+
+    .cabecera .nav-bar .derecha .links-desplegables{
+        display: none;
+    }
+    .cabecera .nav-bar .derecha button{
+        display: none;
     }
 }
 

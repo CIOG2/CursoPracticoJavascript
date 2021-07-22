@@ -35,7 +35,7 @@ header{
     width: 20%;
     height: 80%;
 }
-.cabecera .nav-bar .derecha ul{    
+.cabecera .nav-bar .derecha .nav-bar--destok{    
     width: 100%;
     height: 100%;
     display: none;
@@ -62,3 +62,4 @@ header{
     color: aliceblue;
     text-decoration: none;
 }
+
