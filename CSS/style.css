@@ -1,18 +1,57 @@
 .main-index{
     width: 100%;
-    height: 80vh;
+    height: auto;
     background-color: #201e1c;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
-.main-index h1{
-    color: white;
-    font-size: 3rem;
+.main-index .section-cards{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 30px 0px;
 }
 
-.main-index img{
-    width: 300px;
+.main-index .section-cards .card-article{
+    width: 100%;
+    height: auto;
+    max-width: 256px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    background-color: #282623;
+    box-shadow: 4px 4px 10px 4px rgb(0 0 0);
+    border-radius: 10px;
+    padding: 5px 10px 15px;
 }
+.main-index .section-cards .card-article .image{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.main-index .section-cards .card-article .image img{
+    width: 236px;
+    height: 140px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.main-index .section-cards .card-article a{
+    text-decoration: none;
+}
+
+.main-index .section-cards .card-article a .title-des{
+    width: 100%;
+    height: auto;
+    background-color: #3a3835;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+.main-index .section-cards .card-article a .title-des h2{
+    font-size: 2.5rem;
+    color: azure;
+}
+.main-index .section-cards .card-article a .title-des p{
+    font-size: 1.7rem;
+    color: rgb(212, 228, 228);
+    margin-top: 5px;
+}
+ 
